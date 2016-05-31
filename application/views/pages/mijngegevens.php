@@ -54,7 +54,7 @@ foreach ($query->result() as $row)
 
     }
 
-    echo anchor('/mijnprofiel/registreer/', 'Concact'). "<br>";
+    echo anchor('/mijnprofiel/login/', 'Conctact'). "<br>";
     echo anchor('/mijnprofiel/registreer/', 'Like'). "<br>";
 }
 
